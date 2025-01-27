@@ -48,7 +48,7 @@ def main():
             st.session_state.numbers = generate_numbers(st.session_state.current_level)
             st.session_state.show_numbers = True
             st.session_state.game_phase = 'memorize'
-            st.write("Are you sure?")
+            st.write("Are you sure you want to start?")
 
     # Memorize phase
     elif st.session_state.game_phase == 'memorize':
