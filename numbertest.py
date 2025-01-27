@@ -35,7 +35,7 @@ def check_answer():
             st.session_state.game_over = True
             st.session_state.game_phase = 'end'
     except ValueError:
-        st.session_state.error = "Please enter valid numbers separated by spaces"
+        st.session_state.error = "Please enter valid numbers separated by spaces."
 
 def main():
     st.title("Number Memory Game")
